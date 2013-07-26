@@ -12,19 +12,13 @@
     },
     "require-dev": {
         "doctrine/doctrine-module": "*",
-        "doctrine/doctrine-orm-module": "*",
-        "doctrine/mongodb": "*",
-        "doctrine/mongodb-odm": "*"
+        "doctrine/doctrine-orm-module": "*"
     },
     "minimum-stability": "alpha",
     "autoload": {
         "psr-0": {
             "FS\\SolrBundle": ""
         }
-    },
-    "suggest": {
-        "doctrine/mongodb": "Required if you want to use the MongoDB ODM features",
-        "doctrine/mongodb-odm": "Required if you want to use the MongoDB ODM features"
     },
     "target-dir": "FS/SolrBundle"
 }
